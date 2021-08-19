@@ -21,6 +21,7 @@ class CustomersController < ApplicationController
 
   # POST /customers or /customers.json
   def create
+  (cool github stuff)
     # GitHub is cool!
     @customer = Customer.new(customer_params)
 
